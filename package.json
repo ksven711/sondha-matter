@@ -16,7 +16,7 @@
   "devDependencies": {
     "babel-core": "^6.3.13",
     "babel-loader": "^6.2.0",
-    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-es2016": "latest",
     "babel-preset-react": "^6.3.13"
   }
 }

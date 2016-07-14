@@ -1,17 +1,22 @@
 /**
  * Created by vshan on 7/12/16.
  */
-var React = require('react');
-var ReactDOM = require('react-dom');
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-var Main = React.createClass({
-    render: function() {
-        return (
-            <div>
-                <img src="images/rangu.jpg" />
-            </div>
-        )
-    }
-});
+/*import DDCards from 'DDCards.jsx';*/
+
+const Main = () => (
+    <div>
+        <DDCards />
+    </div>
+);
+
+const DDCards = () => (
+    <div>
+        <h1>Aarambam</h1>
+        <img className="main-card" src="images/rangu.jpg" />
+    </div>
+);
 
 ReactDOM.render(<Main />, document.getElementById('app'));
